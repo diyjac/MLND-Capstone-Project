@@ -175,7 +175,7 @@ This video trains a test generation
 
 This video trained a 40Mph model from a 30Mph trainer model.
 
-[![autoTrainer Video Speed Training Session](./visualization/SpeedTrainingVideo_Thumbnail.png)](https://www.youtube.com/watch?v=4f21TkZquqo)
+[![autoTrainer Video Speed Training Session](./visualization/SpeedTrainingVideo_Thumbnail.png)](https://www.youtube.com/watch?v=ROu111VSG_c)
 
 
 

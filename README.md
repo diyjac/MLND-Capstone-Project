@@ -3,7 +3,7 @@
 
 ![Generation 5 Session Traces](./visualization/generation5_session_results.png)
 
-In this project, we created a trainer using Anaconda, Python 3.5, Keras, Tensorflow, NVIDIA CUDA and Titan X GPU, Udacity’s Self-Driving Car Simulator to use a previously trained neural network to train a new neural network how to drive a simulated car on the same track as the one for project 3, but this time on its own using real-time image data from the simulator in autonomous mode and reinforcing corrective behavior. This project was inspired by DeepMind: https://deepmind.com/ and their human-level control through Deep Reinforcement Learning: https://deepmind.com/research/dqn/ and their AphaGo training method: https://deepmind.com/research/alphago/.
+In this project, we created a trainer with Anaconda, Python 3.5, Keras, Tensorflow, NVIDIA CUDA, Titan X GPU, and Udacity’s Self-Driving Car Simulator to use a previously trained neural network to train a new neural network how to drive a simulated car on the same track as the one for project 3, but this time on its own using real-time image data from the simulator in autonomous mode and reinforcing corrective behavior. This project was inspired by DeepMind: https://deepmind.com/ and their human-level control through Deep Reinforcement Learning: https://deepmind.com/research/dqn/ and their AphaGo training method: https://deepmind.com/research/alphago/.
 
 A detail report of this project can be found in the project PDF: [MLND-Capstone-Project.pdf](./MLND-Capstone-Project.pdf)
 
@@ -156,7 +156,7 @@ As stated before, the goal of this project is to design an automated system to t
 ### Trainer in Target Testing Mode
 ![Trainer Testing](./visualization/target-testing.png)
 
-Below is an example of the output from the provided Jupyter Notebook: [./visualization/training_visualization.ipynb](./visualization/training_visualization.ipynb).  You can look at a complete process of generations 1 through 5 using the completed notebook: [./visualization/sample_data_visualization.ipynb](./visualization/sample_data_visualization.ipynb)
+Below is an example of the output from the provided Jupyter Notebook: [./visualization/training_visualization.ipynb](./visualization/training_visualization.ipynb).  You can look at a complete process of generations 1 through 5 and the speed training using the completed notebook: [./visualization/sample_data_visualization.ipynb](./visualization/sample_data_visualization.ipynb)
 
 ### Mapped Results from generation=5
 
@@ -166,11 +166,15 @@ Below is an example of the output from the provided Jupyter Notebook: [./visuali
 The following are video sessiosn of model generation training.
 
 ### AutoTrainer Video Training Session
+
 This video trains a test generation
+
 [![autoTrainer Video Training Session](./visualization/TrainingTestVideo_Thumbnail.png)](https://www.youtube.com/watch?v=4f21TkZquqo)
 
 ### AutoTrainer Video Speed Training Session
+
 This video trained a 40Mph model from a 30Mph trainer model.
+
 [![autoTrainer Video Speed Training Session](./visualization/SpeedTrainingVideo_Thumbnail.png)](https://www.youtube.com/watch?v=4f21TkZquqo)
 
 

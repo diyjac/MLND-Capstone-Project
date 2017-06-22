@@ -41,8 +41,9 @@ class CarModel:
         (path, modelinstance) = os.path.split(model_path)
         model = importlib.import_module("{}.model".format(path))
         self.model = model.Model(model_path)
-        self.model.load()
         print("loading model...")
+        self.model.load()
+        self.model.kmodel.summary()
 
     # Define a function that gets the steering prediction
     def get_steering(self, image_array):

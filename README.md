@@ -94,8 +94,7 @@ create a close approximation to real driving, where the students’ are to use B
 the simulated car to drive around a test track. The student’s task are:
 
 1. Collect left, center and right camera images and steering angle data by driving the simulated car
-2. Design and create a CNN regression model architecture for learning the steering angle based on
-the center camera image
+2. Design and create a CNN regression model architecture for learning the steering angle based on the center camera image
 3. Train it to drive the simulated car
 4. Test the trained model in the simulator in Autonomous mode.5. Repeat 1-4 until the trained model can drive the simulated car repeatedly on the test track.
 
@@ -114,12 +113,12 @@ models. To accomplish this goal, the tasks involved are the following:
 
 1. Evaluate the current Udacity Self-Driving Car Simulator for the task
 2. Design and create the automated training system and its training method
-3. Select a trained DNN model as the initial generation (g=0)
-4. Select target DNN models for training as the next generation (g+1)
+3. Select a trained CNN model as the initial generation (g=0)
+4. Select target CNN models for training as the next generation (g+1)
 5. Train using the automated training system
-6. Test the target DNN model effectiveness
-7. Discard target DNN model and repeat 4-6 if it does not meet metrics criteria
-8. Repeat 4-7 successively using DNN model generation g to create generation g+1
+6. Test the target CNN model effectiveness
+7. Discard target CNN model and repeat 4-6 if it does not meet metrics criteria
+8. Repeat 4-7 successively using CNN model generation g to create generation g+1
 
 ## CNN Models
 
@@ -163,7 +162,7 @@ Below is an example of the output from the provided Jupyter Notebook: [./visuali
 ![Generation 5 Session Traces](./visualization/generation5_session_traces.png)
 
 ## Video Sessions
-The following are video sessiosn of model generation training.
+The following are video sessions of model generation training.
 
 ### AutoTrainer Video Training Session
 

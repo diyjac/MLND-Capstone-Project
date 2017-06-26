@@ -96,7 +96,8 @@ the simulated car to drive around a test track. The student’s task are:
 1. Collect left, center and right camera images and steering angle data by driving the simulated car
 2. Design and create a CNN regression model architecture for learning the steering angle based on the center camera image
 3. Train it to drive the simulated car
-4. Test the trained model in the simulator in Autonomous mode.5. Repeat 1-4 until the trained model can drive the simulated car repeatedly on the test track.
+4. Test the trained model in the simulator in Autonomous mode.
+5. Repeat 1-4 until the trained model can drive the simulated car repeatedly on the test track.
 
 But, training in batch mode is tough! Times from step 1 to 3 could take hours, before trying on the
 simulator in Autonomous mode and find out:
